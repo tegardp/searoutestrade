@@ -19,8 +19,8 @@ export default function HeroSectionImageWithReviews() {
                         </p>
                         {/* Buttons */}
                         <div className="mt-7 grid gap-3 w-full sm:inline-flex">
-                            <Link className={buttonVariants({ size: "lg" })} href={"https://wa.me/+6281315251047?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products."} target="_blank">BUYER</Link>
-                            <Link className={buttonVariants({ size: "lg", variant: "outline" })} href={"ttps://wa.me/+6281315251047?text=Hi%2C%20I%20would%20like%20to%supply%our%20products."} target="_blank">SUPPLIER</Link>
+                            <Link className={buttonVariants({ size: "lg" })} href={"https://wa.me/‪+6282327193308?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products."} target="_blank">BUYER</Link>
+                            <Link className={buttonVariants({ size: "lg", variant: "outline" })} href={"ttps://wa.me/‪+6282327193308?text=Hi%2C%20I%20would%20like%20to%supply%our%20products."} target="_blank">SUPPLIER</Link>
                         </div>
                         {/* End Buttons */}
 

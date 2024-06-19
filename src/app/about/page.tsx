@@ -2,7 +2,13 @@ import Navbar from "@/components/Navbar";
 import WhatsappFloating from "@/components/WhatsappFloating";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import { Metadata } from "next";
 import { HeroCarousel } from "@/components/HeroCarousel";
+
+export const metadata: Metadata = {
+    title: 'About Us',
+    description: 'Searoutestrade is a passionate team dedicated to bringing you the best Southeast Asia has to offer. We work directly with farmers, producers and manufacturers across the region, ensuring fair trade practices and supporting local communities. Our commitment to quality extends beyond the products themselves. We prioritize sustainable practices and ethical sourcing, building strong relationships with our partners to bring you peace of mind with every purchase.'
+};
 
 export default function About() {
     return (

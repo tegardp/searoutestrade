@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Component() {
     return (
@@ -7,7 +8,7 @@ export default function Component() {
             <div className="w-full max-w-7xl mx-auto px-4">
                 <div className="flex justify-between h-14 items-center">
                     <Link className="flex items-center text-primary" href="/">
-                        <MountainIcon className="h-6 w-6" />
+                        <Logo className="h-6 w-6" />
                         <span className="">SeaRoutesTrade</span>
                     </Link>
                     <nav className="hidden md:flex gap-4">
@@ -33,21 +34,14 @@ export default function Component() {
     )
 }
 
-function MountainIcon(props: any) {
+function Logo(props: any) {
     return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-        </svg>
+        <Image
+            src={`/static/images/logo.png`}
+            width={75}
+            height={75}
+            alt="Logo"
+            className='object-cover object-center rounded'
+        />
     )
 }

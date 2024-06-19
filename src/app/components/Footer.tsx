@@ -20,7 +20,7 @@ export default function Footer() {
                     <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact Us</h2>
                     <nav className="list-none">
                         <li>
-                            <a className="text-gray-600 hover:text-gray-800 hover:underline" href="https://wa.me/+6281315251047?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products.">+6281315251047</a>
+                            <a className="text-gray-600 hover:text-gray-800 hover:underline" href="https://wa.me/‪+6282327193308?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products.">‪+6282327193308</a>
                         </li>
                         <li>
                             <a className="text-gray-600 hover:text-gray-800 hover:underline" href="mailto:contact@searoutestrade.com?subject=Collaboration%Inquiry%20&body=Dear%20SeaRoutesTrade%20Team">contact@searoutestrade.com</a>

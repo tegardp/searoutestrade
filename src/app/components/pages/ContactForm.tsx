@@ -48,7 +48,7 @@ export default function ContactForm() {
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
                             <a className="text-indigo-500 leading-relaxed hover:underline" href="mailto:contact@searoutestrade.com?subject=Collaboration%Inquiry%20&body=Dear%20SeaRoutesTrade%20Team">contact@searoutestrade.com</a>
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                            <p className="leading-relaxed hover:underline"><a href="https://wa.me/+6281315251047?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products.">+62 813 15251 047</a></p>
+                            <p className="leading-relaxed hover:underline"><a href="https://wa.me/‪+6282327193308?text=Hi%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20products.">‪+62 823 2719 3308</a></p>
                         </div>
                     </div>
                 </div>
